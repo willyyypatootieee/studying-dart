@@ -45,16 +45,14 @@ class Human {
 
   // void info() => print('Info: This is a calculator program.');
 
-
-
   // Constructor
   Human(String name, int age, double height) {
-    this.name = name;
-    this.age = age;
-    this.height = height;
-    print('Name = ${name}');
-    print('Age = ${age}');
-    print('Height = ${height}');
+    name = name;
+    age = age;
+    height = height;
+    print('Name = $name');
+    print('Age = $age');
+    print('Height = $height');
     print('age = $age years old and height = $height cm');
     print('=====================');
   }
